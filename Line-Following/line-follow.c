@@ -3,8 +3,6 @@
 
 #include "JoystickDriver.c"
 
-bool leftSide = false;
-
 /* This program uses Multi-tasking to follow a line.
  *
  * Essentially, the robot will alternate between being on the left and
@@ -21,6 +19,8 @@ bool leftSide = false;
  *            is on.
  *
  */
+
+bool leftSide = false;
 
 task readLightSensor()
 {
