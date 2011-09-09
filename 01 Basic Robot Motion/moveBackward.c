@@ -8,12 +8,12 @@
 
 task main() {
   // Start the motors in reverse
-	motor[leftMotor] = -100;
-	motor[rightMotor] = -100;
+  motor[leftMotor] = -100;
+  motor[rightMotor] = -100;
 
-	wait1Msec(2000); // Pause two seconds
+  wait1Msec(2000); // Pause two seconds
 
-	// Stop the motors
-	motor[leftMotor] = 0;
-	motor[rightMotor] = 0;
+  // Stop the motors
+  motor[leftMotor] = 0;
+  motor[rightMotor] = 0;
 }

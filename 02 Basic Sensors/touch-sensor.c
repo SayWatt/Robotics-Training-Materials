@@ -10,15 +10,15 @@
 
 task main() {
   // Start the motors
-	motor[leftMotor] = 100;
-	motor[rightMotor] = 100;
+  motor[leftMotor] = 100;
+  motor[rightMotor] = 100;
 
-	// Keep waiting until the button is pressed
-	while(SensorValue(touch) != 1) {
-		wait1Msec(50);
-	}
+  // Keep waiting until the button is pressed
+  while(SensorValue(touch) != 1) {
+    wait1Msec(50);
+  }
 
-	// Stop the motors
-	motor[leftMotor] = 0;
-	motor[rightMotor] = 0;
+  // Stop the motors
+  motor[leftMotor] = 0;
+  motor[rightMotor] = 0;
 }
