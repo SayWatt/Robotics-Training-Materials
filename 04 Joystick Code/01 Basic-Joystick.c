@@ -20,8 +20,6 @@ task main() {
     motor[leftMotor] = joystick.joy1_y1;
     motor[rightMotor] = joystick.joy1_y2;
 
-    writeDebugStreamLine(joystick.joy1_y1 + " -- " + joystick.joy1_y2 + " -- " + joystick.joy2_y1 + " -- " + joy1Btn(2));
-
     wait1Msec(20);
   }
 }
