@@ -1,0 +1,5 @@
+Purpose of Samantha:
+  The Samantha module is essential to the operation of any robot during the match. Drivers use game controllers to give input to their respective robots. The controllers are connected to a computer running the Samantha Field Control System, or FCS). This computer sends the input from the controllers to a wireless router, which in turn sends the input to the Samantha module on each robot. This module is connected to the NXT brick via USB, and is the final link in the chain of communication. It is an essential part of every competition robot, since without it the robot will be unable to respond to driver input.
+
+Installation:
+The Samantha module is very delicate, and therefore needs special thought when installing. It is susceptible to shock, so it must be protected from smashing into things or being smashed by other robots. It also must be accessible, since it must be "flashed" at each competition.
