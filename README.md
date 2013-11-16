@@ -22,3 +22,7 @@ Two basic programs that use the Joystick to move the robot.
 #### Wait For Start
 
 A simple example of using the "Wait for Start" function that is required in FTC.
+
+#### Advanced Functions
+
+A program that passes values to a function.
